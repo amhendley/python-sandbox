@@ -1,0 +1,7 @@
+boto3
+click
+cryptography
+jsonschema
+toml
+rtoml
+pyjwt
