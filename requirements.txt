@@ -4,4 +4,5 @@ cryptography
 jsonschema
 toml
 rtoml
+PGPy
 pyjwt
