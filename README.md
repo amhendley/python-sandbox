@@ -89,3 +89,9 @@ Example of how to establish enumerator classes
 > misc/using_dataclass.py
 
 Example of using the `dataclasses.dataclass` class.
+
+### All and Any
+
+> misc/check_required_keys_exist_in_a_dict.py
+
+Examples of how and when to use the `all` or `any` function.
