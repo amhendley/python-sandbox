@@ -8,4 +8,4 @@ toml
 rtoml
 PGPy
 pyjwt
-lorumipsum
+loremipsum
