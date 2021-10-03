@@ -2,3 +2,6 @@
 # Virtual Environments
 /venv/
 /.idea/
+
+# Generated output
+/pdf/*.pdf

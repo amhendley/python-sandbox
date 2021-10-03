@@ -76,6 +76,18 @@ Example of reading a TOML configuration file.
 Example of creating a TOML configuration file from a data dictionary
 using the `rtoml` package and then re-opening.
 
+## PDF's
+
+> combine_pdfs.py
+>
+> create_pdf.py
+>
+> rotate_first_page.py
+>
+> split_half_half.py
+
+Examples of manipulating PDF documents using the `borb` package.
+
 ## Miscellaneous
 
 ### Enumerators
