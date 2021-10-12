@@ -10,6 +10,8 @@ import uuid
 import jwt
 
 use_config = 'DEV'
+shift_nbf = True
+shift_nbf_minutes = 1
 configurations = {
     'DEV': {
         'kid': str(uuid.uuid4()),
@@ -51,6 +53,8 @@ jwt_subject = configurations[use_config]['subject']
 jwt_issuer = configurations[use_config]['issuer']
 jwt_id = str(uuid.uuid4())
 jwt_timestamp = datetime.datetime.now()
+if shift_nbf:
+    jwt_timestamp += datetime.timedelta(minutes=shift_nbf_minutes)
 jwt_expiry = (jwt_timestamp + datetime.timedelta(
     days=int(configurations[use_config]['duration'])))
 
