@@ -44,7 +44,7 @@ Examples of validating a JSON object using JSON schema definitions.
 Example of the creation of a Java Web Token (JWT) using a configuration
 dictionary.
 
-> read_validate_jwt_token.py
+> jwt/read_validate_jwt_token.py
 
 Using the token generated from above, or anywhere really, this script
 demonstrates how to validate a JWT.
