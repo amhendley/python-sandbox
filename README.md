@@ -95,6 +95,12 @@ Examples of manipulating PDF documents using the `borb` package.
 
 ## Miscellaneous
 
+### No conditionals
+
+> misc/no_conditions.py
+
+How to remove the over usage of conditionals
+
 ### Enumerators
 
 > misc/using_enums.py
