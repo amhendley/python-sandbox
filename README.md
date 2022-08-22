@@ -11,6 +11,22 @@ next newer version of a repository image.
 
 ## Encryption
 
+### Password hashing
+> encryption/password_hashing.py
+
+Demonstrates the ease of hashing a secret for safe storage. 
+
+### Password generation
+> encryption/password_generator_simple.py
+ 
+A simple method for generating random passwords.
+
+### Keyring
+> encryption/keyring_storage_and_retrieval.py
+
+Example of storing and retrieving senstive information 
+on the systems OS.
+
 ### PGP
 > encryption/create_pgp_keys.py
 > 
