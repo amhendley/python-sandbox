@@ -21,6 +21,8 @@ passlib = "^1.7.4"
 bcrypt = "^3.2.2"
 tqdm = "^4.66.1"
 progressbar = "^2.5"
+pyinquirer = "^1.0.3"
+pyfiglet = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 
