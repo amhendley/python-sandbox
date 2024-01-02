@@ -1,12 +1,13 @@
 import json
-
-import rtoml
+# import rtoml
 import toml
 
 
 data = {
-    "title": "TOML Example",
-    "dob": '1979-05-27T07:32:00-08:00',
+    'general':  {
+        "title": "TOML Example",
+        "dob": '1979-05-27T07:32:00-08:00',
+    },
     'database': {
         'enabled': True,
         'ports': [
@@ -34,11 +35,11 @@ data = {
     }
 }
 
-toml_data = rtoml.dumps(data)
+toml_data = toml.dumps(data)
 print(toml_data)
 
 with open('/tmp/test.toml', mode='w') as file:
-    rtoml.dump(toml_data, file, pretty=True)
+    toml.dump(toml_data, file)
 
 with open('/tmp/test.toml', mode='r') as file:
     new_data = toml.load(file)
