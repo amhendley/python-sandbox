@@ -5,7 +5,7 @@ description = ""
 authors = ["Andrew Hendley <amhendley@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 borb = "^2.0.32"
 boto3 = "^1.24.56"
 click = "^8.1.3"
@@ -13,8 +13,8 @@ cryptography = "^37.0.4"
 jsonschema = "^4.14.0"
 loremipsum = "^1.0.5"
 toml = "^0.10.2"
-rtoml = "^0.8.0"
 PGPy = "^0.5.4"
+pyarrow = "^14.0.2"
 PyJWT = "^2.4.0"
 keyring = "^23.8.2"
 passlib = "^1.7.4"
