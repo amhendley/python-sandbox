@@ -7,7 +7,7 @@ authors = ["Andrew Hendley <amhendley@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.13"
 borb = "^2.1.25"
-boto3 = "^1.38.9"
+boto3 = "^1.38.46"
 click = "^8.1.8"
 cryptography = "^44.0.3"
 jsonschema = "^4.23.0"
@@ -23,10 +23,10 @@ tqdm = "^4.67.1"
 progressbar = "^2.5"
 pyinquirer = "^1.0.3"
 pyfiglet = "^1.0.1"
-fastapi = "^0.115.12"
-nicegui = "^2.16.1"
+fastapi = "^0.115.14"
+nicegui = "^2.22.1"
 click-didyoumean = "^0.3.1"
-rich = "^14.0.0"
+rich = "^14.1.0"
 
 [dev.dependencies]
 
